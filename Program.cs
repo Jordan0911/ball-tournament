@@ -1,9 +1,21 @@
-﻿using System.Data.SqlTypes;
+using System.Data.SqlTypes;
 
 namespace ball_tournament
 {
     internal class Program
     {
+static int Probability_founder(int[]squad_1,int[] squad_2){
+int squad_chance=0;
+squad_chance=
+
+
+
+
+
+
+
+
+}
         static void Squad_power(int[] a)
         {
            
@@ -31,7 +43,7 @@ namespace ball_tournament
         static void Main(string[] args)
         {
             bool penalty_given = false;
-            int manchester_goals = 0, arsenal_goals = 0, event_decider = 0, manchester_yellows = 0, manchester_reds = 0,penalty_decider=0;
+            int manchester_goals = 0,manchester_chance= 0, arsenal_goals = 0,arsenal_chance=0,event_decider = 0, manchester_yellows = 0, manchester_reds = 0,penalty_decider=0;
             int[] manchester_main = new int[11];
             int[] manchester_spare = new int[5];
             int[] arsenal_main = new int[11];
@@ -46,9 +58,7 @@ namespace ball_tournament
                 {
                     if (event_decider == 1)
                     {
-                        manchester_goals++;
-                        manchester_main = Goal_morale(manchester_main);
-
+manchester_chance=
                     }
                     else if (event_decider == 2)
                     {
