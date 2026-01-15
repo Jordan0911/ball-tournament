@@ -4,17 +4,17 @@ namespace ball_tournament
 {
     internal class Program
     {
-static int Probability_founder(int[]squad_1,int[] squad_2){
-int squad_chance=0;
-squad_chance=
-
-
-
-
-
-
-
-
+      static int Probability_founder(int[]squad_1,int[] squad_2){
+    int squad_chance=0;
+    int squad_1_power=0;
+    int squad_2_power=0;
+    for(int i=0;i<squad_1.Lenght;i++)
+    {
+    squad_1_power += squad_1[i] 
+    squad_2_power += squad_2[i] 
+    }
+    squad_chance= squad_1_power/(squad_1_power+squad_2_power);
+    return squad_chance
 }
         static void Squad_power(int[] a)
         {
